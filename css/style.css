@@ -354,6 +354,15 @@ line-height: 2.2;
 .windows .image img{
     border-radius: 20px;
 }
+@media screen and (max-width:768px){
+    .windows .details p{
+        font-size: 20px;
+        line-height: 1.8;
+    }
+    .windows .details{
+        padding: 10px;
+    }
+}
 /* articls page */
 .page-foot nav{
     display: flex;
